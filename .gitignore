@@ -1,3 +1,4 @@
 .claude/
 *.pyc
 __pycache__/
+assets/img/_blackbg_backup/
