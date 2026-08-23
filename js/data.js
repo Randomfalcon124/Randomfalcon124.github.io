@@ -17,8 +17,8 @@ window.PORTFOLIO = {
     ],
     stats: [
       { value: 'Finalist', label: '2026 FIRST Championship alliance' },
-      { value: '#1', label: 'intl. rank, FTC 7172 (2021–22)' },
-      { value: '5 yrs', label: 'Fusion 360 / Onshape / SolidWorks' },
+      { value: '5 robots', label: 'FTC competition robots — lead designer on 4' },
+      { value: '6 yrs', label: 'Fusion 360 / Onshape / SolidWorks' },
       { value: 'Part 107', label: 'FAA remote pilot' },
     ],
     contactBlurb: 'Open to internships and research in mechanical design, robotics, and UAS. Fastest way to reach me is email.',
