@@ -187,6 +187,19 @@ html:not([data-theme="dark"]) .ico-moon { display: none; }
 /* Renders on white backgrounds: show whole part instead of cropping */
 .card__media img.fit-contain, .modal__hero img.fit-contain { object-fit: contain; background: #fff; padding: 4%; }
 
+/* ---------- AI-use badge ---------- */
+.aibadge {
+  align-self: flex-start; display: inline-block;
+  font-family: var(--mono); font-size: .64rem; letter-spacing: .06em; text-transform: uppercase;
+  font-weight: 600; padding: .2rem .5rem; border-radius: 5px; border: 1px solid;
+}
+.aibadge--claude { color: #7c5cd6; border-color: color-mix(in srgb, #7c5cd6 40%, transparent); background: color-mix(in srgb, #7c5cd6 10%, transparent); }
+.aibadge--llm    { color: #2f7d8c; border-color: color-mix(in srgb, #2f7d8c 40%, transparent); background: color-mix(in srgb, #2f7d8c 10%, transparent); }
+.aibadge--none   { color: var(--muted); border-color: var(--line); background: var(--surface-2); }
+html[data-theme="dark"] .aibadge--claude { color: #b39df5; }
+html[data-theme="dark"] .aibadge--llm    { color: #6fc7d8; }
+.modal__content .aibadge { margin-left: .6rem; vertical-align: 2px; }
+
 /* ---------- Masonry gallery ---------- */
 .masonry { columns: 3; column-gap: 1rem; }
 .masonry figure {
