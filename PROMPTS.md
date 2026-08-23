@@ -1,7 +1,7 @@
 # Prompts for gathering project material
 
 Open a Claude Code session **in each project folder** and paste the matching prompt.
-Each one asks for the two things the portfolio needs: **images** and **specific numbers**.
+Each asks for the two things the portfolio needs: **images** and **specific numbers**.
 
 Paste the answers back into the portfolio session, or save them as
 `<project>/PORTFOLIO.md` and tell me where to find them.
@@ -138,98 +138,48 @@ Under 500 words.
 
 ---
 
-## 5. ThrustVector — ArduPilot quadcopter *(currently off the site)*
-`C:\Users\Akshay\Projects\ThrustVector`
-
-```
-I'm building an engineering portfolio website. This project is on hold, so I
-want an honest snapshot of it, not a sales pitch.
-
-Write PORTFOLIO.md with:
-1. What the build is and where it actually stands (be blunt about what's done
-   vs planned).
-2. Key facts: flight controller, target frame, ESC protocol, firmware target.
-3. The hardware-verification work in docs/HARDWARE.md — summarize the real
-   engineering finding there: which specs I verified against sources, and the
-   three constraints that changed the plan (Vx2 solder bridge, UART DMA
-   placement, no Lua scripting on 1 MB flash).
-4. What's in firmware/ and sim/ and whether it runs.
-
-IMAGES: any wiring diagrams, sim plots, or CAD in the repo. If none exist,
-generate: a wiring/power-budget block diagram (motors, BECs, FC, GPS, telemetry)
-as an SVG, and a timer-group/output-mapping table rendered as a clean image.
-Save to `portfolio_images/`.
-
-Under 500 words. Say clearly if this isn't portfolio-ready yet.
-```
-
----
-
-## 6. dxf2drawing / step2drawing *(currently off the site)*
-`C:\Users\Akshay\Projects\DXFtoDrawing`
-
-```
-I'm building an engineering portfolio website and these two CLIs are a candidate
-entry.
-
-Write PORTFOLIO.md with:
-1. The problem in two sentences: what Fusion 360's drawing workspace can't do
-   and why the API can't fix it in-app.
-2. Key facts: supported inputs, dimensioning strategies, sheet sizes, tolerance
-   standard applied, test coverage.
-3. How the auto-dimensioning actually works — the algorithm for choosing which
-   features to dimension and where to place them without collisions. This is the
-   interesting part; go into detail.
-4. Limitations and what breaks.
-
-IMAGES — this project's whole value is visual, so this matters most:
-Run both CLIs on the examples in `examples/` and save the resulting PDFs, then
-rasterize page 1 of each to PNG at 150 dpi into `portfolio_images/`. I want at
-least: one flat laser-cut part with a hole table, one ordinate-dimensioned part,
-and one tube two-view drawing with the hidden bore. Also produce a side-by-side
-"input DXF vs generated drawing" image for one part. Caption each.
-
-Under 600 words.
-```
-
----
-
-## 7. Neuron
+## 5. Neuron — VGTransformer, architectural hallucination prevention
 `C:\Users\Akshay\Projects\Neuron`
 
 ```
-I'm building an engineering portfolio website. Tell me first whether this
-project is worth including — be honest, I'd rather cut it than pad the site.
+I'm building an engineering portfolio website and this project is going on it as
+a headline software/ML entry. It's the most conceptually ambitious thing I've
+built, so the write-up has to be precise and defensible — a skeptical ML person
+will read it.
 
-If yes, write PORTFOLIO.md: 2-sentence summary, 4 key facts with real numbers,
-3 sections (approach, results, what I learned), and a list of the best 4-6
-images or plots in the repo copied into `portfolio_images/`. Generate plots from
-any saved results/metrics if none exist.
+Write PORTFOLIO.md containing:
+1. A 2-sentence summary a smart non-ML reader understands: what the confidence
+   channel `c` is, and why abstention-by-architecture differs from
+   abstention-by-prompting or a special <unknown> token.
+2. Four key facts (label/value): architecture (V-layer / G-layer alternation),
+   parameter count, the abstention threshold tau_out, and the headline
+   silenced / correct rates on the toy task.
+3. Sections:
+   - Architecture — what a G-layer (diagonal per-neuron gating) actually does to
+     the residual stream, and how `c` propagates layer to layer. Include the math.
+   - The load-bearing-silence result — why the silence path has to be the ONLY
+     mechanism for unanswerables, and what happened when it wasn't.
+   - Experiments — every experiment in this repo with its real numbers: the toy
+     task, the GPT-2 VG variant, the guard / false-positive analyses, the CoT and
+     dense evals. Pull numbers from the .log files, _perf.csv, and the
+     analyze_*.py outputs. Do not round away the failures.
+   - Limitations — be blunt. Separate what the toy experiments actually validate
+     from what the paper only conjectures. My README already draws that line;
+     keep it exactly as strict.
+4. What I'd test next to make the claim hold at scale.
 
-If no, tell me in one paragraph why not and what would make it portfolio-worthy.
+IMAGES — this needs figures and the repo has the data for them. Generate into
+`portfolio_images/` at >=1200px wide, white background, readable axis labels:
+   - An architecture diagram: the V/G layer stack with the `c` channel drawn as a
+     separate rail and tau_out at the output. SVG or high-res PNG.
+   - A histogram of c_final for answerable vs unanswerable inputs with tau_out
+     marked — this is the money figure; it shows the separation.
+   - Training curves from the eval logs / losses.
+   - A false-positive analysis plot from analyze_fp_final.py / analyze_guard.py.
+   - Any ablation as a grouped bar chart.
+Caption each figure in one sentence saying what it proves.
 
-Under 500 words.
-```
-
----
-
-## 8. Trading
-`C:\Users\Akshay\Projects\Trading`
-
-```
-I'm building an engineering portfolio website. Tell me first whether this
-belongs on it — this is a personal-finance-adjacent project and I want an honest
-read on whether it shows engineering skill or just looks like gambling.
-
-If it's worth including, write PORTFOLIO.md covering: what the system does, the
-data pipeline, the backtest methodology, and — most importantly — how I guarded
-against look-ahead bias, survivorship bias, and overfitting. Include real
-performance numbers with the caveats attached, or say plainly that results
-aren't trustworthy yet.
-
-IMAGES: equity curves, drawdown plots, and any out-of-sample vs in-sample
-comparison. Generate them from saved results if they don't exist.
-Under 600 words. Do not overstate performance.
+Keep PORTFOLIO.md under 800 words. Flag every number you could not source.
 ```
 
 ---
