@@ -18,7 +18,7 @@ window.PORTFOLIO = {
     ],
     stats: [
       { value: 'Finalist', label: '2026 FIRST Championship alliance' },
-      { value: '5 robots', label: 'FTC competition robots — lead designer on 4' },
+      { value: '19', label: 'FTC event wins, 2021–2026' },
       { value: '6 yrs', label: 'Fusion 360 / Onshape / SolidWorks' },
       { value: 'Part 107', label: 'FAA remote pilot' },
     ],
