@@ -13,6 +13,7 @@ window.PORTFOLIO = {
     cta: [
       { label: 'View projects', href: '#projects' },
       { label: 'Resume (PDF)', href: 'assets/AkshayPatil_Resume.pdf', external: true },
+      { label: 'Portfolio PDF', href: 'assets/AkshayPatil_Portfolio_compact.pdf', external: true },
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/akshaypatil08', external: true },
     ],
     stats: [

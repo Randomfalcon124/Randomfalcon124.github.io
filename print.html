@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Akshay Patil — Engineering Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#141517;--ink2:#41454d;--muted:#6b7280;--line:#d9d9d4;--accent:#bf4a08;--surface:#f6f6f3;}
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{font-family:Inter,system-ui,sans-serif;color:var(--ink);font-size:9.6pt;line-height:1.5;}
+  .mono{font-family:"JetBrains Mono",monospace;}
+  h1,h2,h3,h4{margin:0;line-height:1.15;letter-spacing:-.015em;}
+  a{color:inherit;text-decoration:none;}
+
+  .page{padding:14mm 14mm 12mm;}
+  .cover{display:flex;flex-direction:column;justify-content:center;min-height:252mm;}
+  .cover h1{font-size:40pt;font-weight:800;letter-spacing:-.03em;margin:.15em 0 .1em;}
+  .cover .tag{font-size:13pt;color:var(--ink2);font-weight:500;max-width:150mm;}
+  .cover .blurb{font-size:10pt;color:var(--ink2);max-width:150mm;margin-top:6mm;}
+  .eyebrow{font-family:"JetBrains Mono",monospace;font-size:7.5pt;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .cover .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin-top:10mm;}
+  .cover .stats div{border:1px solid var(--line);border-radius:3mm;padding:4mm;}
+  .cover .stats b{display:block;font-size:15pt;font-weight:800;letter-spacing:-.02em;}
+  .cover .stats span{font-family:"JetBrains Mono",monospace;font-size:6.8pt;color:var(--muted);}
+  .cover .contact{margin-top:10mm;font-size:9pt;color:var(--ink2);}
+  .cover .contact span{margin-right:6mm;}
+  .toc{margin-top:12mm;border-top:1px solid var(--line);padding-top:5mm;}
+  .toc h4{font-family:"JetBrains Mono",monospace;font-size:7.5pt;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:3mm;}
+  .toc ol{margin:0;padding-left:5mm;columns:2;column-gap:10mm;font-size:9pt;color:var(--ink2);}
+  .toc li{margin-bottom:1.2mm;}
+
+  .project{break-before:page;page-break-before:always;}
+  .project__head{border-bottom:2px solid var(--ink);padding-bottom:2.5mm;margin-bottom:4mm;}
+  .project__head h2{font-size:17pt;font-weight:700;margin:.6mm 0 1.2mm;}
+  .meta{font-family:"JetBrains Mono",monospace;font-size:7.5pt;color:var(--muted);}
+  .badge{display:inline-block;font-family:"JetBrains Mono",monospace;font-size:6.4pt;letter-spacing:.06em;text-transform:uppercase;font-weight:600;padding:.6mm 1.6mm;border-radius:1mm;border:1px solid #b9a6e8;color:#5b43a8;margin-left:2mm;}
+  .badge.none{border-color:var(--line);color:var(--muted);}
+  .lede{font-size:10.4pt;color:var(--ink2);margin:0 0 4mm;}
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm;background:var(--surface);border:1px solid var(--line);border-radius:2mm;padding:3.5mm;margin-bottom:4.5mm;}
+  .facts dt{font-family:"JetBrains Mono",monospace;font-size:6.6pt;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:.6mm;}
+  .facts dd{margin:0;font-size:8.6pt;font-weight:500;}
+  .sec{margin-bottom:3.5mm;break-inside:avoid;}
+  .sec h3{font-family:"JetBrains Mono",monospace;font-size:7.4pt;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin-bottom:1.2mm;font-weight:600;}
+  .sec p{margin:0;color:var(--ink2);}
+  .sec ul{margin:0;padding-left:4.5mm;color:var(--ink2);}
+  .sec li{margin-bottom:.8mm;}
+  .tags{margin-top:3mm;}
+  .tag{display:inline-block;font-family:"JetBrains Mono",monospace;font-size:6.6pt;padding:.5mm 1.5mm;border:1px solid var(--line);border-radius:1mm;color:var(--ink2);margin:0 1mm 1mm 0;}
+  .links{font-size:8pt;color:var(--ink2);margin-top:2mm;}
+  .links a{color:var(--accent);}
+
+  .gal{display:grid;gap:2.5mm;margin:4mm 0 0;break-inside:avoid;}
+  .gal--1{grid-template-columns:1fr;}
+  .gal--2{grid-template-columns:1fr 1fr;}
+  .gal--3{grid-template-columns:repeat(3,1fr);}
+  .gal figure{margin:0;break-inside:avoid;}
+  .gal img{width:100%;height:46mm;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:1.5mm;}
+  .gal--1 img{height:78mm;}
+  .gal figcaption{font-size:7pt;color:var(--muted);margin-top:1mm;line-height:1.35;}
+  .hero img{width:100%;height:74mm;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:2mm;}
+  .hero{margin-bottom:4mm;}
+</style>
+</head>
+<body>
+<div id="out"></div>
+<script src="js/data.js"></script>
+<script>
+(function(){
+  const P = window.PORTFOLIO, esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const AI = {claude:'Built with Claude Code', llm:'LLM-assisted', none:'Written without AI'};
+  const p = P.profile;
+  let h = `<div class="page cover">
+    <span class="eyebrow">${esc(p.eyebrow)}</span>
+    <h1>${esc(p.name)}</h1>
+    <div class="tag">${esc(p.tagline)}</div>
+    <div class="blurb">${esc(p.blurb)}</div>
+    <div class="stats">${p.stats.map(s=>`<div><b>${esc(s.value)}</b><span>${esc(s.label)}</span></div>`).join('')}</div>
+    <div class="contact">${p.links.map(l=>`<span>${esc(l.label)}</span>`).join('')}</div>
+    <div class="toc"><h4>Contents</h4><ol>${P.projects.map(x=>`<li>${esc(x.title)}</li>`).join('')}</ol></div>
+  </div>`;
+
+  for (const x of P.projects) {
+    const imgs = x.images.slice(0, 7);
+    const hero = imgs[x.cardImage ?? 0] || imgs[0];
+    const rest = imgs.filter(i => i !== hero).slice(0, 6);
+    const cols = rest.length >= 3 ? 3 : (rest.length === 2 ? 2 : 1);
+    h += `<div class="page project">
+      <div class="project__head">
+        <span class="eyebrow">${esc(x.categories.join(' · '))}</span>${x.aiUse?`<span class="badge ${x.aiUse==='none'?'none':''}">${esc(AI[x.aiUse])}</span>`:''}
+        <h2>${esc(x.title)}</h2>
+        <div class="meta">${esc(x.date)}${x.role?' · '+esc(x.role):''}</div>
+      </div>
+      <p class="lede">${esc(x.summary)}</p>
+      ${hero?`<div class="hero"><img src="${esc(hero.src)}"></div>`:''}
+      ${x.facts?`<dl class="facts">${x.facts.map(f=>`<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd></div>`).join('')}</dl>`:''}
+      ${(x.sections||[]).map(s=>`<div class="sec"><h3>${esc(s.heading)}</h3>${s.text?`<p>${esc(s.text)}</p>`:''}${s.bullets?`<ul>${s.bullets.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>`:''}</div>`).join('')}
+      ${rest.length?`<div class="gal gal--${cols}">${rest.map(i=>`<figure><img src="${esc(i.src)}"><figcaption>${esc(i.caption||i.alt||'')}</figcaption></figure>`).join('')}</div>`:''}
+      <div class="tags">${x.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>
+      ${x.links&&x.links.length?`<div class="links">${x.links.map(l=>`<a href="${esc(l.href)}">${esc(l.label)}</a>`).join(' &nbsp;·&nbsp; ')}</div>`:''}
+    </div>`;
+  }
+  document.getElementById('out').innerHTML = h;
+})();
+</script>
+</body>
+</html>
