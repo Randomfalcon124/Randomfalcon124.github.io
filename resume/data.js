@@ -24,7 +24,7 @@ window.RESUME = {
     salvo: {
       org: 'Salvo Dynamics', role: 'Design Engineer', dates: 'August 2026 – Present',
       bullets: [
-        'Turning the aero body of a Mach 1 Challenge RC jet into a load-bearing structure in CAD, and laying out the avionics that go inside it',
+        'Turning the aero body of an RC jet built to break the speed of sound into a load-bearing structure in CAD, and laying out the avionics that go inside it',
         'Designing a 3D printed airframe for testing, plus the assembly jigs used to build the interceptor jets',
       ],
     },
