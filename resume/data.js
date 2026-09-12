@@ -24,56 +24,62 @@ window.RESUME = {
     salvo: {
       org: 'Salvo Dynamics', role: 'Design Engineer', dates: 'August 2026 – Present',
       bullets: [
-        'Turning the aero body of an RC jet built to break the speed of sound into a load-bearing structure in CAD, and laying out the avionics that go inside it',
-        'Designing a 3D printed airframe for testing, plus the assembly jigs used to build the interceptor jets',
+        'Salvo builds small interceptor aircraft meant to fly out and bring down hostile drones, and is separately building an RC jet to break the speed of sound',
+        'Turning that jet\'s aero body into a load-bearing structure in CAD and laying out the avionics that go inside it',
+        'Designing a 3D printed airframe for testing, plus the assembly jigs the production aircraft are built on',
       ],
     },
 
     hardpoint: {
       org: 'Hardpoint Robotics', role: 'Co-Founder', dates: 'June 2026 – Present',
       bullets: [
-        'Designing NDAA-compliant development UAVs, owning the airframe: CAD, 3D printed CF-Nylon parts, and carbon fiber structures made with outside vendors',
-        'Designing around sourcing as a hard constraint, since every component has to be compliant and in stock',
+        'Hardpoint builds NDAA-compliant development UAVs, aircraft for customers who are not allowed to fly foreign-sourced hardware',
+        'I own the airframe: CAD, 3D printed CF-Nylon parts, and carbon fiber structures made with outside vendors',
+        'Designing around sourcing as a hard constraint, since every part has to be compliant and purchasable, so vendor lead times shape the design as much as the loads do',
       ],
     },
 
     swyft: {
       org: 'SWYFT Robotics', role: 'Engineering Design Intern', dates: 'May 2025 – May 2026',
       bullets: [
-        'Designed sprockets, gears, and pulleys for FIRST Tech Challenge and FIRST Robotics Competition teams',
-        'Designed a modular robot cart for FIRST Robotics Competition teams with a detachable programming station',
+        'SWYFT sells competition drivetrain and structural parts to FIRST Tech Challenge and FIRST Robotics Competition teams',
+        'Designed sprockets, gears, and pulleys that hold up under competition loads at a price teams can afford',
+        { t: 'Designed a modular robot cart for FRC teams with a detachable programming station, drawn for extrusion and fiber laser cutting', v: ['aero'] },
       ],
     },
 
     ivalab: {
       org: 'IVALab, Georgia Tech', role: 'Undergraduate Researcher', dates: 'September 2026 – Present',
       bullets: [
-        'Developing robot navigation algorithms for pedestrian dense environments, mixing learned and classical planners and benchmarking them in the Arena simulator',
+        'The lab works on navigation for robots that have to move through crowds of people',
+        'Developing navigation algorithms that mix learned policies with classical planners',
+        'Benchmarking them against each other in the Arena simulator',
       ],
     },
 
     vip: {
       org: 'Hypersonics VIP, Georgia Tech', role: 'Data and Communications Team', dates: 'August 2026 – Present',
       bullets: [
-        'Building a sensor package to measure pressure, temperature, and airflow inside a sonic fatigue test facility',
-        'Developing parabolic mirrors to generate a uniform sound field across the facility\'s test section',
+        { t: 'The team is standing up a sonic fatigue test facility, where acoustic loading is used to find how structures fail under sustained high-intensity sound', v: ['aero'] },
+        'Building the sensor package that measures pressure, temperature, and airflow inside the facility',
+        { t: 'Developing parabolic mirrors to generate a uniform sound field across the test section', v: ['aero'] },
       ],
     },
 
     gtxr: {
       org: 'Georgia Tech Experimental Rocketry', role: 'Externals Team', dates: 'August 2026 – Present',
       bullets: [
-        'Designing a fin mounting jig that has to locate fins on an already wrapped carbon fiber tube whose exact dimensions are no longer known, and hold fin cant to within a tenth of a degree',
-        { t: 'Working out how to measure each fin angle to that tolerance; next step is a mini carbon fiber fin can sent to a third party for dimensioning to validate the jig', v: ['aero'] },
-        { t: 'Learning prepreg carbon fiber layup and hands-on composite manufacturing', v: ['aero'] },
+        'The externals team builds the rocket\'s prepreg carbon fiber structure in house, which I joined to learn composite layup',
+        'Designing a fin mounting jig that locates fins on an already wrapped tube whose exact dimensions are no longer known, and holds fin cant to within a tenth of a degree',
+        { t: 'Working out how to measure each fin angle to that tolerance, with a mini carbon fiber fin can going to a third party for dimensioning to validate the jig', v: ['aero'] },
       ],
     },
     yjsp: {
       org: 'Yellow Jacket Space Program', role: 'Turbomachinery, Engine Development', dates: 'August 2026 – Present',
       bullets: [
-        'Designing electric pumps and turbopumps so the vehicle can drop the large pressurant tanks a pressure-fed design needs',
+        'The program is going for the collegiate liquid propellant altitude record and the Karman line at 100 km',
+        'Designing electric pumps and turbopumps so the vehicle can drop the large, heavy pressurant tanks a pressure-fed engine needs',
         { t: 'Designing and manufacturing impellers, pump housings, and the surrounding hardware', v: ['aero'] },
-        { t: 'Team is going for the collegiate liquid propellant altitude record and the Karman line at 100 km', v: ['aero'] },
       ],
     },
 
@@ -81,7 +87,7 @@ window.RESUME = {
       org: 'FIRST Tech Challenge Team 7172', role: 'Captain and Lead Designer', dates: 'September 2021 – May 2026',
       bullets: [
         'Lead designer on four robots; 2026 World Championship Finalist Alliance, 19 event wins and 63 awards over five seasons',
-        { t: 'Replaced an unreliable game piece transfer with one 5-DoF arm doing both intake and scoring, using worm gearboxes and torsion springs to offload the pivot motor; Worlds Division Finalist and Innovate Award', v: ['aero'] },
+        { t: 'Replaced an unreliable game piece transfer with one 5-DoF arm doing both intake and scoring, using worm gearboxes and torsion springs to offload the pivot motor', v: ['aero'] },
         { t: 'Designed a shooter that sorts and fires three balls in 0.2 to 0.5 s using a wedge spindexer and a flywheel on a 200 Hz servo turret', v: ['robotics'] },
       ],
     },
@@ -106,8 +112,7 @@ window.RESUME = {
       org: 'Autonomous House-Mapping Robot', role: 'Personal Project', dates: '2025 – Present',
       bullets: [
         'Jetson Orin Nano robot that explores a house with no operator and counts windows, using an MPPI controller, RTAB-Map visual SLAM, and frontier exploration I wrote',
-        { t: 'No lidar: obstacles come from monocular depth classified against a fitted ground plane; windows from three open-vocabulary detectors filtered by a vision-language model', v: ['robotics'] },
-        { t: 'Holds a commanded goal to within 7 cm behind a 50 Hz fail-toward-stop safety governor', v: ['robotics'] },
+        { t: 'No lidar: obstacles come from monocular depth classified against a fitted ground plane, windows from three open-vocabulary detectors filtered by a vision-language model', v: ['robotics'] },
       ],
     },
   },
@@ -135,15 +140,14 @@ window.RESUME = {
       ['Education', ['gt', 'townview']],
       ['Experience', ['salvo', 'hardpoint', 'swyft']],
       ['Research and Engineering Teams', ['vip', 'gtxr', 'yjsp', 'ivalab', 'ftc']],
-      ['Projects', ['bwsi', 'pickleball']],
       ['Skills', 'skills'],
     ],
     robotics: [
       ['Education', ['gt', 'townview']],
-      ['Research', ['ivalab', 'vip']],
+      ['Research', ['ivalab']],
       ['Experience', ['hardpoint', 'salvo', 'swyft']],
       ['Projects', ['windows', 'pickleball']],
-      ['Engineering Teams', ['ftc', 'gtxr', 'yjsp']],
+      ['Engineering Teams', ['ftc', 'yjsp']],
       ['Skills', 'skills'],
     ],
   },
