@@ -26,7 +26,7 @@ window.RESUME = {
       bullets: [
         'Salvo builds small interceptor aircraft meant to fly out and bring down hostile drones, and is separately building an RC jet to break the speed of sound',
         'Turning optimized aerobody models into load-bearing structures in CAD, and laying out the avionics that go inside them',
-        'Designing a 3D printed airframe for testing, plus the assembly jigs the production aircraft are built on',
+        'Designing 3D printed airframes for testing, plus the assembly jigs the production aircraft are built on',
       ],
     },
 
