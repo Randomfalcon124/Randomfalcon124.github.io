@@ -25,7 +25,7 @@ window.RESUME = {
       org: 'Salvo Dynamics', role: 'Design Engineer', dates: 'August 2026 – Present',
       bullets: [
         'Salvo builds small interceptor aircraft meant to fly out and bring down hostile drones, and is separately building an RC jet to break the speed of sound',
-        'Turning that jet\'s aero body into a load-bearing structure in CAD and laying out the avionics that go inside it',
+        'Turning optimized aerobody models into load-bearing structures in CAD, and laying out the avionics that go inside them',
         'Designing a 3D printed airframe for testing, plus the assembly jigs the production aircraft are built on',
       ],
     },
