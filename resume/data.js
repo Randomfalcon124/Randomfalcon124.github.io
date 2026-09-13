@@ -4,7 +4,7 @@
 window.RESUME = {
   contact: {
     name: 'Akshay Patil',
-    items: ['(469) 594-5077', 'apatil433@gatech.edu', 'linkedin.com/in/akshaypatil08', 'randomfalcon124.github.io'],
+    items: ['Atlanta, GA', '(469) 594-5077', 'apatil433@gatech.edu', 'linkedin.com/in/akshaypatil08', 'randomfalcon124.github.io'],
   },
 
   entries: {
@@ -24,18 +24,18 @@ window.RESUME = {
     salvo: {
       org: 'Salvo Dynamics', role: 'Design Engineer', dates: 'August 2026 – Present',
       bullets: [
-        'Salvo builds small interceptor aircraft meant to fly out and bring down hostile drones, and is separately building an RC jet to break the speed of sound',
+        'Startup building drone interceptor aircraft, plus an RC jet designed to break the speed of sound',
         'Turning optimized aerobody models into load-bearing structures in CAD, and laying out the avionics that go inside them',
-        'Designing 3D printed airframes for testing, plus the assembly jigs the production aircraft are built on',
+        'Developing 3D printed test airframes and the assembly jigs the production aircraft are built on',
       ],
     },
 
     hardpoint: {
       org: 'Hardpoint Robotics', role: 'Co-Founder', dates: 'June 2026 – Present',
       bullets: [
-        'Hardpoint builds NDAA-compliant development UAVs, aircraft for customers who are not allowed to fly foreign-sourced hardware',
-        'Designing airframes in CAD and 3D printing CF-Nylon parts for them',
-        'Working with various North American vendors to manufacture the carbon fiber structures and source compliant components, where lead times shape the design as much as the loads do',
+        'Startup building NDAA-compliant development UAVs for customers barred from flying foreign-sourced hardware',
+        'Modeling airframes in CAD and 3D printing their CF-Nylon parts',
+        'Sourcing carbon fiber structures and compliant components from North American vendors, where lead times shape the design as much as the loads do',
       ],
     },
 
@@ -44,7 +44,7 @@ window.RESUME = {
       bullets: [
         'SWYFT sells competition drivetrain and structural parts to FIRST Tech Challenge and FIRST Robotics Competition teams',
         'Designed sprockets, gears, and pulleys that hold up under competition loads at a price teams can afford',
-        { t: 'Designed a modular robot cart for FRC teams with a detachable programming station, designed for extrusion and fiber laser cutting', v: ['aero'] },
+        { t: 'Created a modular robot cart for FRC teams with a detachable programming station, designed for extrusion and fiber laser cutting', v: ['aero'] },
       ],
     },
 
@@ -71,7 +71,7 @@ window.RESUME = {
       bullets: [
         'The externals team builds the rocket\'s prepreg carbon fiber structure in house',
         'Designing a fin mounting jig that precisely locates fins after they have been wrapped in carbon fiber and their exact dimensions are no longer known, and holds fin cant to within a tenth of a degree',
-        { t: 'Working out how to measure each fin angle to that tolerance, with a mini carbon fiber fin can going to a third party for dimensioning to validate the jig', v: ['aero'] },
+        { t: 'Devising a way to measure each fin angle to that tolerance, with a mini carbon fiber fin can going to a third party for dimensioning to validate the jig', v: ['aero'] },
       ],
     },
     yjsp: {
@@ -86,7 +86,7 @@ window.RESUME = {
     ftc: {
       org: 'FIRST Tech Challenge Team 7172', role: 'Captain and Lead Designer', dates: 'September 2021 – May 2026',
       bullets: [
-        'Lead designer on four robots; part of the Finalist Alliance at the 2026 FIRST World Championship',
+        'Lead designer on four robots; 2026 FIRST World Championship Finalist Alliance, top 8 of roughly 7,000 teams',
         'Designed mechanisms using linkages, counter-springing, pulley systems, and geartrains',
         'Used industrial arm kinematics to design and build a 6-DoF arm robot that expands from an 18 in cube to 13 ft of reach',
         '24 competition wins (2021 to 2026), plus Inspire, Think, Connect, Innovate, Design, Motivate, and Control awards',
@@ -145,7 +145,7 @@ window.RESUME = {
     ],
     robotics: [
       ['Education', ['gt', 'townview']],
-      ['Experience', ['hardpoint', 'salvo', 'swyft']],
+      ['Experience', ['salvo', 'hardpoint', 'swyft']],
       ['Projects', ['windows', 'pickleball']],
       ['Research and Clubs', ['vip', 'ftc']],
       ['Skills', 'skills'],
