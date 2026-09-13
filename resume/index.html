@@ -44,7 +44,7 @@
     if (e.role && e.coursework) body += `<div>${esc(e.role)}</div>`;
     if (e.coursework) {
       const cw = e.coursework[v] || e.coursework.all;
-      body += `<div><span class="sub">${id === 'gt' ? 'Current coursework' : 'Coursework'}:</span> ${esc(cw)}</div>`;
+      body += `<div><span class="sub">${id === 'gt' ? 'Current coursework' : 'Coursework'}:</span> ${cw.split(', ').map(c => `<span style="white-space:nowrap">${esc(c)}</span>`).join(', ')}</div>`;
     }
     if (e.pending) body += `<div class="pending">Pending: role, dates, and bullets needed</div>`;
     const bullets = (e.bullets || []).map(pick).filter(Boolean);
