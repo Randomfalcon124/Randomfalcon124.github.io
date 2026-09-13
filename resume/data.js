@@ -77,9 +77,9 @@ window.RESUME = {
     yjsp: {
       org: 'Yellow Jacket Space Program', role: 'Turbomachinery, Engine Development', dates: 'August 2026 – Present',
       bullets: [
-        'The program is going for the collegiate liquid propellant altitude record and the Karman line at 100 km',
+        'Pursuing the collegiate liquid propellant altitude record and the Karman line at 100 km',
         'Designing electric pumps and turbopumps so the vehicle can drop the large, heavy pressurant tanks a pressure-fed engine needs',
-        { t: 'Designing and manufacturing impellers, pump housings, and the surrounding hardware', v: ['aero'] },
+        { t: 'Manufacturing the impellers, pump housings, and surrounding hardware I design', v: ['aero'] },
       ],
     },
 
