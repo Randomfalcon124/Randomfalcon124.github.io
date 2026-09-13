@@ -34,7 +34,7 @@ window.RESUME = {
       org: 'Hardpoint Robotics', role: 'Co-Founder', dates: 'June 2026 – Present',
       bullets: [
         'Startup building NDAA-compliant development UAVs for customers barred from flying foreign-sourced hardware',
-        'Modeling airframes in CAD and 3D printing their CF-Nylon parts',
+        'Modeling a 500 mm, 4 kg max takeoff weight quadcopter in CAD with 3D printed CF-Nylon parts, sized for 12.7 min endurance with a 410 g Jetson and stereo camera payload',
         'Sourcing carbon fiber structures and compliant components from North American vendors, where lead times shape the design as much as the loads do',
       ],
     },
