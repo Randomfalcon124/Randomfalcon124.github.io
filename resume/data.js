@@ -89,7 +89,7 @@ window.RESUME = {
         'Lead designer on four robots; part of the Finalist Alliance at the 2026 FIRST World Championship',
         'Designed mechanisms using linkages, counter-springing, pulley systems, and geartrains',
         'Used industrial arm kinematics to design and build a 6-DoF arm robot that expands from an 18 in cube to 13 ft of reach',
-        '19 event wins (2021 to 2026), plus Inspire, Think, Connect, Innovate, Design, Motivate, and Control awards',
+        '24 competition wins (2021 to 2026), plus Inspire, Think, Connect, Innovate, Design, Motivate, and Control awards',
       ],
     },
 
