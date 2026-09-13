@@ -35,7 +35,7 @@ window.RESUME = {
       bullets: [
         'Startup building NDAA-compliant development UAVs for customers barred from flying foreign-sourced hardware',
         'Modeling a 500 mm, 4 kg max takeoff weight quadcopter in CAD with 3D printed CF-Nylon parts, sized for 12.7 min endurance with a 410 g Jetson and stereo camera payload',
-        'Sourcing carbon fiber structures and compliant components from North American vendors, where lead times shape the design as much as the loads do',
+        'Working with North American vendors to manufacture carbon fiber structures and source compliant components, negotiating pricing and delivery timelines',
       ],
     },
 
