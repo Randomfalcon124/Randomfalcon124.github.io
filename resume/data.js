@@ -43,7 +43,7 @@ window.RESUME = {
       org: 'SWYFT Robotics', role: 'Engineering Design Intern', dates: 'May 2025 – May 2026',
       bullets: [
         'SWYFT sells competition drivetrain and structural parts to FIRST Tech Challenge and FIRST Robotics Competition teams',
-        'Designed sprockets, gears, and pulleys that hold up under competition loads at a price teams can afford',
+        'Designed sprockets, gears, and pulleys for competition loads, generating $10,000 in revenue',
         { t: 'Created a modular robot cart for FRC teams with a detachable programming station, designed for extrusion and fiber laser cutting', v: ['aero'] },
       ],
     },
