@@ -12,8 +12,8 @@ window.RESUME = {
       org: 'Georgia Institute of Technology', where: 'Atlanta, GA', dates: 'August 2026 – May 2029',
       role: 'Bachelor of Science in Aerospace Engineering | Sophomore | GPA: 4.00',
       coursework: {
-        aero: 'AE 1601 Aerospace Engineering, COE 2001 Statics, MSE 2001 Materials, MATH 2551 Multivariable Calculus, ME 1670 SolidWorks, CS 1371 MATLAB',
-        robotics: 'CS 1371 MATLAB, MATH 2551 Multivariable Calculus, COE 2001 Statics, ME 1670 SolidWorks, AE 1601 Aerospace Engineering, MSE 2001 Materials',
+        aero: 'AE 1601 Intro to Aerospace Engineering, COE 2001 Statics, MSE 2001 Materials, MATH 2551 Multivariable Calculus, ME 1670 SolidWorks, CS 1371 MATLAB',
+        robotics: 'CS 1371 MATLAB, MATH 2551 Multivariable Calculus, COE 2001 Statics, ME 1670 SolidWorks, AE 1601 Intro to Aerospace Engineering, MSE 2001 Materials',
       },
     },
     townview: {
