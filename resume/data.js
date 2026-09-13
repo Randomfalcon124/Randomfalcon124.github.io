@@ -87,8 +87,8 @@ window.RESUME = {
       org: 'FIRST Tech Challenge Team 7172', role: 'Captain and Lead Designer', dates: 'September 2021 – May 2026',
       bullets: [
         'Lead designer on four robots; 2026 World Championship Finalist Alliance, 19 event wins and 63 awards over five seasons',
-        { t: 'Designed a 6-DoF arm robot that expands from an 18 in cube to 13 ft of reach: three-pivot arms on worm-gear turrets, torsion springs offloading the pivot motors, and a drivetrain that splits in half on linear slides, scoring on roughly 4 s cycles', v: ['aero'] },
-        { t: 'Designed a shooter that sorts and fires three balls in 0.2 to 0.5 s using a wedge spindexer and a flywheel on a 200 Hz servo turret', v: ['robotics'] },
+        { t: 'Designed and built a 6-DoF arm robot that expands from an 18 in cube to 13 ft of reach: three-pivot arms on worm-gear turrets, torsion springs offloading the pivot motors, and a drivetrain that splits in half on linear slides, scoring on roughly 4 s cycles', v: ['aero'] },
+        { t: 'Designed and built a shooter that sorts and fires three balls in 0.2 to 0.5 s using a wedge spindexer and a flywheel on a 200 Hz servo turret', v: ['robotics'] },
       ],
     },
 
