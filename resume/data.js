@@ -121,7 +121,7 @@ window.RESUME = {
   skills: {
     aero: [
       ['CAD', 'SolidWorks, Fusion 360, Onshape, Autodesk Inventor'],
-      ['Manufacturing', '3D printing (CF-Nylon), fiber laser cutting, extrusion, carbon fiber vendor work'],
+      ['Manufacturing', 'CNC machining, 3D printing (CF-Nylon), carbon fiber, epoxy, fiber laser cutting, extrusion'],
       ['Programming', 'Python (NumPy, Matplotlib, Pandas, TensorFlow), MATLAB, JavaScript, SQL, Git'],
       ['Hardware', 'NVIDIA Jetson, Raspberry Pi, Arduino, REV Control Hub'],
       ['Certifications', 'FAA Part 107 Remote Pilot, Autodesk Certified User (Inventor)'],
