@@ -122,13 +122,13 @@ window.RESUME = {
     aero: [
       ['CAD', 'SolidWorks, Fusion 360, Onshape, Autodesk Inventor'],
       ['Manufacturing', 'CNC machining, 3D printing (CF-Nylon), carbon fiber, epoxy'],
-      ['Programming', 'Python (NumPy, Matplotlib, Pandas, TensorFlow), MATLAB, JavaScript, SQL, Git'],
+      ['Programming', 'Python (NumPy, Matplotlib, Pandas, TensorFlow), MATLAB, Java, SQL, Git'],
       ['Hardware', 'NVIDIA Jetson, Raspberry Pi, Arduino, REV Control Hub'],
       ['Certifications', 'FAA Part 107 Remote Pilot, Autodesk Certified User (Inventor)'],
     ],
     robotics: [
       ['Robotics', 'ROS 2 (Nav2), RTAB-Map visual SLAM, MPPI control, AprilTag localization'],
-      ['Programming', 'Python (NumPy, Pandas, TensorFlow), MATLAB, JavaScript, SQL, Git'],
+      ['Programming', 'Python (NumPy, Pandas, TensorFlow), MATLAB, Java, SQL, Git'],
       ['Hardware', 'NVIDIA Jetson, Raspberry Pi, Arduino, REV Control Hub'],
       ['CAD', 'SolidWorks, Fusion 360, Onshape, Autodesk Inventor, 3D printing'],
       ['Certifications', 'FAA Part 107 Remote Pilot, Autodesk Certified User (Inventor)'],
