@@ -44,7 +44,7 @@ window.RESUME = {
       bullets: [
         'SWYFT sells competition drivetrain and structural parts to FIRST Tech Challenge and FIRST Robotics Competition teams',
         'Designed sprockets, gears, and pulleys that hold up under competition loads at a price teams can afford',
-        { t: 'Designed a modular robot cart for FRC teams with a detachable programming station, drawn for extrusion and fiber laser cutting', v: ['aero'] },
+        { t: 'Designed a modular robot cart for FRC teams with a detachable programming station, designed for extrusion and fiber laser cutting', v: ['aero'] },
       ],
     },
 
