@@ -139,14 +139,14 @@ window.RESUME = {
     aero: [
       ['Education', ['gt', 'townview']],
       ['Experience', ['salvo', 'hardpoint', 'swyft']],
-      ['Research and Clubs', ['vip', 'gtxr', 'yjsp', 'ivalab', 'ftc']],
+      ['Research and Clubs', ['vip', 'gtxr', 'yjsp', 'ftc']],
       ['Skills', 'skills'],
     ],
     robotics: [
       ['Education', ['gt', 'townview']],
       ['Experience', ['hardpoint', 'salvo', 'swyft']],
       ['Projects', ['windows', 'pickleball']],
-      ['Research and Clubs', ['ivalab', 'vip', 'ftc']],
+      ['Research and Clubs', ['vip', 'ftc']],
       ['Skills', 'skills'],
     ],
   },
