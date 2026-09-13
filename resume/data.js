@@ -34,8 +34,8 @@ window.RESUME = {
       org: 'Hardpoint Robotics', role: 'Co-Founder', dates: 'June 2026 – Present',
       bullets: [
         'Hardpoint builds NDAA-compliant development UAVs, aircraft for customers who are not allowed to fly foreign-sourced hardware',
-        'I own the airframe: CAD, 3D printed CF-Nylon parts, and carbon fiber structures made with outside vendors',
-        'Designing around sourcing as a hard constraint, since every part has to be compliant and purchasable, so vendor lead times shape the design as much as the loads do',
+        'Designing airframes in CAD and 3D printing CF-Nylon parts for them',
+        'Working with various North American vendors to manufacture the carbon fiber structures and source compliant components, where lead times shape the design as much as the loads do',
       ],
     },
 
