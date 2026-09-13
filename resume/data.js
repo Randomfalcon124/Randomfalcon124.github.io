@@ -4,7 +4,7 @@
 window.RESUME = {
   contact: {
     name: 'Akshay Patil',
-    items: ['(469) 594-5077', 'akshaypat08@gmail.com', 'linkedin.com/in/akshaypatil08', 'randomfalcon124.github.io'],
+    items: ['(469) 594-5077', 'apatil433@gatech.edu', 'linkedin.com/in/akshaypatil08', 'randomfalcon124.github.io'],
   },
 
   entries: {
@@ -12,8 +12,8 @@ window.RESUME = {
       org: 'Georgia Institute of Technology', where: 'Atlanta, GA', dates: 'August 2026 – May 2029',
       role: 'Bachelor of Science in Aerospace Engineering | Sophomore | GPA: 4.00',
       coursework: {
-        aero: 'AE 1601 Aerospace Engineering, COE 2001 Statics, MSE 2001 Materials, MATH 2551 Multivariable Calculus, ME 1670 Graphics, CS 1371 Computing',
-        robotics: 'CS 1371 Computing, MATH 2551 Multivariable Calculus, COE 2001 Statics, ME 1670 Graphics, AE 1601 Aerospace Engineering, MSE 2001 Materials',
+        aero: 'AE 1601 Aerospace Engineering, COE 2001 Statics, MSE 2001 Materials, MATH 2551 Multivariable Calculus, ME 1670 SolidWorks, CS 1371 MATLAB',
+        robotics: 'CS 1371 MATLAB, MATH 2551 Multivariable Calculus, COE 2001 Statics, ME 1670 SolidWorks, AE 1601 Aerospace Engineering, MSE 2001 Materials',
       },
     },
     townview: {
