@@ -70,7 +70,7 @@ window.RESUME = {
       org: 'Georgia Tech Experimental Rocketry', role: 'Externals Team', dates: 'August 2026 – Present',
       bullets: [
         'The externals team builds the rocket\'s prepreg carbon fiber structure in house',
-        'Designing a fin mounting jig that locates fins on an already wrapped tube whose exact dimensions are no longer known, and holds fin cant to within a tenth of a degree',
+        'Designing a fin mounting jig that precisely locates fins after they have been wrapped in carbon fiber and their exact dimensions are no longer known, and holds fin cant to within a tenth of a degree',
         { t: 'Working out how to measure each fin angle to that tolerance, with a mini carbon fiber fin can going to a third party for dimensioning to validate the jig', v: ['aero'] },
       ],
     },
