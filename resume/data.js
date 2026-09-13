@@ -61,7 +61,7 @@ window.RESUME = {
       org: 'Hypersonics VIP, Georgia Tech', role: 'Data and Communications Team', dates: 'August 2026 – Present',
       bullets: [
         'Building a sonic fatigue test facility, where acoustic loading is used to find how structures fail under sustained high-intensity sound',
-        'Building the sensor package that measures pressure, temperature, and airflow inside the facility',
+        'Designing the sensor package that measures pressure, temperature, and airflow inside the facility',
         { t: 'Developing parabolic mirrors to generate a uniform sound field across the test section', v: ['aero'] },
       ],
     },
