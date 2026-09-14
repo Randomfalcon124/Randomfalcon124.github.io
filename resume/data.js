@@ -4,7 +4,7 @@
 window.RESUME = {
   contact: {
     name: 'Akshay Patil',
-    items: ['Atlanta, GA', '(469) 594-5077', 'apatil433@gatech.edu', 'linkedin.com/in/akshaypatil08', 'randomfalcon124.github.io'],
+    items: ['Atlanta, GA', 'US Citizen', '(469) 594-5077', 'apatil433@gatech.edu', 'linkedin.com/in/akshaypatil08', 'randomfalcon124.github.io'],
   },
 
   entries: {
