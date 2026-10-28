@@ -9,7 +9,7 @@ window.RESUME = {
 
   entries: {
     gt: {
-      org: 'Georgia Institute of Technology', where: 'Atlanta, GA', dates: 'August 2026 – May 2029',
+      org: 'Georgia Institute of Technology', where: 'Atlanta, GA', dates: 'May 2029',
       role: 'Bachelor of Science in Aerospace Engineering | Sophomore | GPA: 4.00',
       coursework: {
         aero: 'AE 1601 Intro to Aerospace Engineering, COE 2001 Statics, MSE 2001 Materials, MATH 2551 Multivariable Calculus, ME 1670 SolidWorks, CS 1371 MATLAB',
@@ -17,24 +17,25 @@ window.RESUME = {
       },
     },
     townview: {
-      org: 'School of Science and Engineering at Townview', where: 'Dallas, TX', dates: 'August 2022 – May 2026',
-      line: '3.97 Unweighted GPA | Rank 2 | 1600 SAT | National Merit Scholar | NASA High School Aerospace Scholar',
+      org: 'School of Science and Engineering at Townview', where: 'Dallas, TX', dates: 'Aug 2022 – May 2026',
+      line: '3.97 Unweighted GPA | Rank 2 | 1600 SAT | National Merit Scholar',
     },
 
     salvo: {
-      org: 'Salvo Dynamics', role: 'Design Engineer', dates: 'August 2026 – Present',
+      org: 'YC-Backed Stealth Startup', role: 'Hardware Intern', dates: 'Aug 2026 – Present',
       bullets: [
-        'Startup building drone interceptor aircraft, plus an RC jet designed to break the speed of sound',
-        'Turning optimized aerobody models into load-bearing structures in CAD, and laying out the avionics that go inside them',
-        'Developing 3D printed test airframes and the assembly jigs the production aircraft are built on',
+        'Building the world\'s fastest RC interceptor aircraft',
+        'Designed the nose cone and avionics bay, replacing adhesive mounting so the airframe can be built at scale',
+        'Designed 3D printed rib alignment jigs and built two RC test aircraft on them, drilling, finishing, and epoxy bonding carbon fiber structure',
+        'Responsible engineer for the next two programs: a subscale supersonic demonstrator and a fully 3D printed jet interceptor',
       ],
     },
 
     hardpoint: {
-      org: 'Hardpoint Robotics', role: 'Co-Founder', dates: 'June 2026 – Present',
+      org: 'Hardpoint Robotics', role: 'Co-Founder', dates: 'Jun 2026 – Present',
       bullets: [
-        'Startup building NDAA-compliant development UAVs for customers barred from flying foreign-sourced hardware',
-        'Modeling a 500 mm, 4 kg max takeoff weight quadcopter in CAD with 3D printed CF-Nylon parts, sized for 12.7 min endurance with a 410 g Jetson and stereo camera payload',
+        'Break-even startup building NDAA-compliant development UAVs for customers barred from foreign hardware',
+        'Modeled a 500 mm, 4 kg max takeoff weight quadcopter in CAD with 3D printed CF-Nylon parts, sized for 12.7 min endurance with a 410 g Jetson and stereo camera payload',
         'Working with North American vendors to manufacture carbon fiber structures and source compliant components, negotiating pricing and delivery timelines',
       ],
     },
@@ -49,7 +50,7 @@ window.RESUME = {
     },
 
     ivalab: {
-      org: 'IVALab, Georgia Tech', role: 'Undergraduate Researcher', dates: 'September 2026 – Present',
+      org: 'IVALab, Georgia Tech', role: 'Undergraduate Researcher', dates: 'Sep 2026 – Present',
       bullets: [
         'The lab works on navigation for robots that have to move through crowds of people',
         'Developing navigation algorithms that mix learned policies with classical planners',
@@ -58,7 +59,7 @@ window.RESUME = {
     },
 
     vip: {
-      org: 'Hypersonics VIP, Georgia Tech', role: 'Data and Communications Team', dates: 'August 2026 – Present',
+      org: 'Hypersonics VIP, Georgia Tech', role: 'Data and Communications Team', dates: 'Aug 2026 – Present',
       bullets: [
         'Building a sonic fatigue test facility, where acoustic loading is used to find how structures fail under sustained high-intensity sound',
         'Designing the sensor package that measures pressure, temperature, and airflow inside the facility',
@@ -67,7 +68,7 @@ window.RESUME = {
     },
 
     gtxr: {
-      org: 'Georgia Tech Experimental Rocketry', role: 'Externals Team', dates: 'August 2026 – Present',
+      org: 'Georgia Tech Experimental Rocketry', role: 'Externals Team', dates: 'Aug 2026 – Present',
       bullets: [
         'The externals team builds the rocket\'s prepreg carbon fiber structure in house',
         'Designing a fin mounting jig that precisely locates fins after they have been wrapped in carbon fiber and their exact dimensions are no longer known, and holds fin cant to within a tenth of a degree',
@@ -75,16 +76,16 @@ window.RESUME = {
       ],
     },
     yjsp: {
-      org: 'Yellow Jacket Space Program', role: 'Turbomachinery, Engine Development', dates: 'August 2026 – Present',
+      org: 'Yellow Jacket Space Program', role: 'Turbomachinery, Engine Development', dates: 'Sep 2026 – Present',
       bullets: [
         'Pursuing the collegiate liquid propellant altitude record and the Karman line at 100 km',
-        'Designing electric pumps and turbopumps so the vehicle can drop the heavy pressurant tanks',
-        { t: 'Manufacturing the impellers, pump housings, and surrounding hardware I design', v: ['aero'] },
+        'Designing electric pumps and turbopumps so the vehicle can drop the heavy pressurant tanks; drew the GD&T part drawings for the Elytra electric pump',
+        'Simulated the Vespula engine\'s LOx injector manifold in STAR-CCM+, showing all 17 injectors run within 1.1% of mean flow and tracing the remaining imbalance to injector ring layout',
       ],
     },
 
     ftc: {
-      org: 'FIRST Tech Challenge Team 7172', role: 'Captain and Lead Designer', dates: 'September 2021 – May 2026',
+      org: 'FIRST Tech Challenge Team 7172 (Top 0.1% Worldwide)', role: 'Captain and Lead Designer', dates: 'Sep 2021 – May 2026',
       bullets: [
         'Lead designer on four robots; 2026 FIRST World Championship Finalist Alliance, top 8 of roughly 7,000 teams',
         'Designed mechanisms using linkages, counter-springing, pulley systems, and geartrains',
@@ -94,7 +95,7 @@ window.RESUME = {
     },
 
     bwsi: {
-      org: 'Beaver Works Summer Institute at MIT', role: 'UAS-SAR Track', dates: 'June 2024 – August 2024',
+      org: 'Beaver Works Summer Institute at MIT', role: 'UAS-SAR Track', dates: 'Jun 2024 – Aug 2024',
       bullets: [
         'Built a synthetic aperture radar from a PulsON 440 on a DJI F550 UAV and wrote the NumPy back projection, which resolved four soda cans next to two much brighter retroreflectors',
       ],
@@ -120,8 +121,8 @@ window.RESUME = {
 
   skills: {
     aero: [
-      ['CAD', 'SolidWorks, Fusion 360, Onshape, Autodesk Inventor'],
-      ['Manufacturing', 'CNC machining, 3D printing (CF-Nylon), carbon fiber, epoxy'],
+      ['CAD and CFD', 'SolidWorks, Fusion 360, Onshape, Autodesk Inventor, GD&T drawings, STAR-CCM+'],
+      ['Manufacturing', 'CNC machining, 3D printing (CF-Nylon), carbon fiber, epoxy, jigs and fixtures'],
       ['Programming', 'Python (NumPy, Matplotlib, Pandas, TensorFlow), MATLAB, Java, SQL, Git'],
       ['Hardware', 'NVIDIA Jetson, Raspberry Pi, Arduino, REV Control Hub'],
       ['Certifications', 'FAA Part 107 Remote Pilot, Autodesk Certified User (Inventor)'],
@@ -140,7 +141,7 @@ window.RESUME = {
     aero: [
       ['Education', ['gt', 'townview']],
       ['Experience', ['salvo', 'hardpoint', 'swyft']],
-      ['Research and Clubs', ['vip', 'gtxr', 'yjsp', 'ftc']],
+      ['Research and Clubs', ['vip', 'yjsp', 'ftc']],
       ['Skills', 'skills'],
     ],
     robotics: [
