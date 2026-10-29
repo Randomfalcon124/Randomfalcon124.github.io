@@ -4,7 +4,7 @@
 window.RESUME = {
   contact: {
     name: 'Akshay Patil',
-    items: ['Atlanta, GA', 'US Citizen', '(469) 594-5077', 'apatil433@gatech.edu', 'linkedin.com/in/akshaypatil08', 'randomfalcon124.github.io'],
+    items: ['Dallas, TX', 'US Citizen', '(469) 594-5077', 'apatil433@gatech.edu', 'linkedin.com/in/akshaypatil08', 'randomfalcon124.github.io'],
   },
 
   entries: {
@@ -18,7 +18,7 @@ window.RESUME = {
     },
     townview: {
       org: 'School of Science and Engineering at Townview', where: 'Dallas, TX', dates: 'Aug 2022 – May 2026',
-      line: '3.97 Unweighted GPA | Rank 2 | 1600 SAT | National Merit Scholar',
+      line: '3.97 Unweighted GPA | Rank 2 | 1600 SAT | National Merit Scholar | FIRST Alum',
     },
 
     salvo: {
@@ -97,7 +97,8 @@ window.RESUME = {
     bwsi: {
       org: 'Beaver Works Summer Institute at MIT', role: 'UAS-SAR Track', dates: 'Jun 2024 – Aug 2024',
       bullets: [
-        'Built a synthetic aperture radar from a PulsON 440 on a DJI F550 UAV and wrote the NumPy back projection, which resolved four soda cans next to two much brighter retroreflectors',
+        'Built a UAV synthetic aperture radar by mounting a PulsON 440 ultra-wideband radar on a DJI F550',
+        'Wrote a vectorized Python back projection algorithm that resolved targets even in noisy conditions',
       ],
     },
 
@@ -123,13 +124,13 @@ window.RESUME = {
     aero: [
       ['CAD and CFD', 'SolidWorks, Fusion 360, Onshape, Autodesk Inventor, GD&T drawings, STAR-CCM+'],
       ['Manufacturing', 'CNC machining, 3D printing (CF-Nylon), carbon fiber, epoxy, jigs and fixtures'],
-      ['Programming', 'Python (NumPy, Matplotlib, Pandas, TensorFlow), MATLAB, Java, SQL, Git'],
+      ['Programming', 'Python (NumPy, Matplotlib, Pandas, TensorFlow), MATLAB, Java, Git'],
       ['Hardware', 'NVIDIA Jetson, Raspberry Pi, Arduino, REV Control Hub'],
       ['Certifications', 'FAA Part 107 Remote Pilot, Autodesk Certified User (Inventor)'],
     ],
     robotics: [
       ['Robotics', 'ROS 2 (Nav2), RTAB-Map visual SLAM, MPPI control, AprilTag localization'],
-      ['Programming', 'Python (NumPy, Pandas, TensorFlow), MATLAB, Java, SQL, Git'],
+      ['Programming', 'Python (NumPy, Pandas, TensorFlow), MATLAB, Java, Git'],
       ['Hardware', 'NVIDIA Jetson, Raspberry Pi, Arduino, REV Control Hub'],
       ['CAD', 'SolidWorks, Fusion 360, Onshape, Autodesk Inventor, 3D printing'],
       ['Certifications', 'FAA Part 107 Remote Pilot, Autodesk Certified User (Inventor)'],
@@ -141,7 +142,7 @@ window.RESUME = {
     aero: [
       ['Education', ['gt', 'townview']],
       ['Experience', ['salvo', 'hardpoint', 'swyft']],
-      ['Research and Clubs', ['vip', 'yjsp', 'ftc']],
+      ['Research and Clubs', ['vip', 'yjsp', 'ftc', 'bwsi']],
       ['Skills', 'skills'],
     ],
     robotics: [
