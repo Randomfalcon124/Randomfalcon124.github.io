@@ -729,7 +729,7 @@ window.PORTFOLIO = {
 
   /* ---------------- EXPERIENCE ---------------- */
   experience: [
-    { role: 'Design Engineer', org: 'Salvo Dynamics', date: 'Aug 2026 – present', bullets: [
+    { role: 'Hardware Intern', org: 'YC-Backed Stealth Startup', url: 'stealth-startup.html', date: 'Aug 2026 – present', bullets: [
       'Startup building drone interceptor aircraft, plus an RC jet designed to break the speed of sound.',
       'Turning optimized aerobody models into load-bearing structures in CAD, and laying out the avionics that go inside them.',
       'Developing 3D printed test airframes and the assembly jigs the production aircraft are built on.',

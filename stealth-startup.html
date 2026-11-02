@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hardware Intern, YC-Backed Stealth Startup | Akshay Patil</title>
+  <script>try{var _t=localStorage.getItem('theme');document.documentElement.dataset.theme=_t||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch(e){}</script>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .gal { max-width: var(--wrap); margin: 0 auto; padding: 2rem 1rem 4rem; }
+    .gal__back { display: inline-block; margin-bottom: 1.5rem; color: var(--muted); font-family: var(--mono); font-size: .85rem; text-decoration: none; }
+    .gal__back:hover { color: var(--accent-text); }
+    .gal h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; }
+    .gal__sub { margin: .4rem 0 1.75rem; color: var(--muted); font-family: var(--mono); font-size: .85rem; }
+    .gal figure { margin: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--surface-2); cursor: zoom-in; }
+    .gal__hero img, .gal__end img { width: 100%; }
+    .gal__row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1rem 0; }
+    .gal__row img { width: 100%; aspect-ratio: 3/4; object-fit: cover; }
+    .gal__end { max-width: 560px; margin: 0 auto !important; }
+    @media (max-width: 720px) { .gal__row { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main class="gal">
+    <a class="gal__back" href="index.html#experience">← Portfolio</a>
+    <h1>YC-Backed Stealth Startup</h1>
+    <p class="gal__sub">Hardware Intern · Aug 2026 – present</p>
+    <figure class="gal__hero"><img src="assets/img/stealth-startup/01-airframe.jpg" alt="Finished black delta airframe on a workbench"></figure>
+    <div class="gal__row">
+      <figure><img src="assets/img/stealth-startup/02-structure-on-jig.jpg" alt="Carbon fiber ribs and spars seated in a white assembly jig" loading="lazy"></figure>
+      <figure><img src="assets/img/stealth-startup/03-structure-frame.jpg" alt="Assembled carbon fiber internal frame" loading="lazy"></figure>
+      <figure><img src="assets/img/stealth-startup/04-avionics-bay.jpg" alt="Avionics bay with flight controller and wiring" loading="lazy"></figure>
+    </div>
+    <figure class="gal__end"><img src="assets/img/stealth-startup/05-assembly-jig.jpg" alt="White 3D printed assembly jig with slotted rib locators" loading="lazy"></figure>
+  </main>
+
+  <div class="lightbox" id="lb" hidden>
+    <button class="iconbtn lightbox__close" id="lb-close" aria-label="Close">✕</button>
+    <figure class="lightbox__fig"><img id="lb-img" alt=""></figure>
+  </div>
+
+  <script>
+    var lb = document.getElementById('lb'), lbImg = document.getElementById('lb-img');
+    document.querySelectorAll('.gal figure img').forEach(function (img) {
+      img.parentNode.addEventListener('click', function () { lbImg.src = img.src; lbImg.alt = img.alt; lb.hidden = false; });
+    });
+    lb.addEventListener('click', function () { lb.hidden = true; });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') lb.hidden = true; });
+  </script>
+</body>
+</html>

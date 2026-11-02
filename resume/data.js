@@ -21,7 +21,7 @@ window.RESUME = {
       line: '3.97 Unweighted GPA | Rank 2 | 1600 SAT | National Merit Scholar | FIRST Alum',
     },
 
-    salvo: {
+    stealth: {
       org: 'YC-Backed Stealth Startup', role: 'Hardware Intern', dates: 'Aug 2026 – Present',
       bullets: [
         'Building the world\'s fastest RC interceptor aircraft',
@@ -141,13 +141,13 @@ window.RESUME = {
   variants: {
     aero: [
       ['Education', ['gt', 'townview']],
-      ['Experience', ['salvo', 'hardpoint', 'swyft']],
+      ['Experience', ['stealth', 'hardpoint', 'swyft']],
       ['Research and Clubs', ['vip', 'yjsp', 'ftc', 'bwsi']],
       ['Skills', 'skills'],
     ],
     robotics: [
       ['Education', ['gt', 'townview']],
-      ['Experience', ['salvo', 'hardpoint', 'swyft']],
+      ['Experience', ['stealth', 'hardpoint', 'swyft']],
       ['Projects', ['windows', 'pickleball']],
       ['Research and Clubs', ['vip', 'ftc']],
       ['Skills', 'skills'],
