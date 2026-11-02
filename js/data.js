@@ -34,6 +34,34 @@ window.PORTFOLIO = {
   /* ---------------- PROJECTS ---------------- */
   projects: [
     {
+      id: 'stealth-startup',
+      title: 'RC Interceptor Aircraft, YC-Backed Stealth Startup',
+      date: 'Aug 2026 – present',
+      role: 'Hardware Intern',
+      featured: true,
+      categories: ['Aerospace', 'CAD'],
+      tags: ['Carbon fiber', '3D printed jigs', 'Avionics bay', 'Epoxy bonding', 'Nose cone'],
+      summary: 'Building the world\'s fastest RC interceptor aircraft. I designed the nose cone and avionics bay and the 3D printed rib alignment jigs the airframes are built on.',
+      facts: [
+        { label: 'Role', value: 'Hardware Intern, Aug 2026 to present' },
+        { label: 'Built', value: 'Two RC test aircraft on my jigs' },
+        { label: 'Next', value: 'Responsible engineer for a subscale supersonic demonstrator and a fully 3D printed jet interceptor' },
+      ],
+      sections: [
+        { heading: 'What I did', bullets: [
+          'Designed the nose cone and avionics bay, replacing adhesive mounting so the airframe can be built at scale.',
+          'Designed 3D printed rib alignment jigs and built two RC test aircraft on them, drilling, finishing, and epoxy bonding carbon fiber structure.',
+        ]},
+      ],
+      images: [
+        { src: 'assets/img/stealth-startup/01-airframe.jpg', alt: 'Finished black delta airframe on a workbench', caption: 'Finished airframe' },
+        { src: 'assets/img/stealth-startup/02-structure-on-jig.jpg', alt: 'Carbon fiber ribs and spars seated in a white assembly jig', caption: 'Carbon fiber ribs and spars seated in the jig' },
+        { src: 'assets/img/stealth-startup/03-structure-frame.jpg', alt: 'Assembled carbon fiber internal frame', caption: 'Bonded internal structure off the jig' },
+        { src: 'assets/img/stealth-startup/04-avionics-bay.jpg', alt: 'Avionics bay with flight controller and wiring', caption: 'Avionics bay' },
+        { src: 'assets/img/stealth-startup/05-assembly-jig.jpg', alt: 'White 3D printed assembly jig with slotted rib locators', caption: '3D printed rib alignment jig' },
+      ],
+    },
+    {
       id: 'rebound',
       cardImage: 1,
       title: '"Rebound": Spindexer Shooter Robot, FTC Decode',
