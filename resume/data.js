@@ -9,7 +9,7 @@ window.RESUME = {
 
   entries: {
     gt: {
-      org: 'Georgia Institute of Technology', where: 'Atlanta, GA', dates: 'May 2029',
+      org: 'Georgia Institute of Technology', where: 'Atlanta, GA', dates: 'Aug 2026 – May 2029',
       role: 'Bachelor of Science in Aerospace Engineering | Sophomore | GPA: 4.00',
       coursework: {
         aero: 'AE 1601 Intro to Aerospace Engineering, COE 2001 Statics, MSE 2001 Materials, MATH 2551 Multivariable Calculus, ME 1670 SolidWorks, CS 1371 MATLAB',
