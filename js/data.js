@@ -58,6 +58,7 @@ window.PORTFOLIO = {
         { src: 'assets/img/stealth-startup/02-structure-on-jig.jpg', alt: 'Carbon fiber ribs and spars seated in a white assembly jig', caption: 'Carbon fiber ribs and spars seated in the jig' },
         { src: 'assets/img/stealth-startup/03-structure-frame.jpg', alt: 'Assembled carbon fiber internal frame', caption: 'Bonded internal structure off the jig' },
         { src: 'assets/img/stealth-startup/04-avionics-bay.jpg', alt: 'Avionics bay with flight controller and wiring', caption: 'Avionics bay' },
+        { src: 'assets/img/stealth-startup/06-avionics-bay-cad.jpg', fit: 'contain', alt: 'Avionics bay tray CAD', caption: 'Avionics bay CAD: printed tray that replaces adhesive mounting' },
         { src: 'assets/img/stealth-startup/05-assembly-jig.jpg', alt: 'White 3D printed assembly jig with slotted rib locators', caption: '3D printed rib alignment jig' },
       ],
     },
