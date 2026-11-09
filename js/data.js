@@ -421,7 +421,7 @@ window.PORTFOLIO = {
     },
     {
       id: 'nautilus',
-      cardImage: 8,
+      cardImage: 0,
       title: '"Nautilus": Passive-Claw Specimen Robot, FTC Into the Deep',
       date: '2024 – 2025',
       role: 'Lead designer',
@@ -593,7 +593,6 @@ window.PORTFOLIO = {
       title: 'Paper-Airplane "Drone" Launcher: FTC Centerstage',
       date: '2023 – 2024',
       role: 'Designer',
-      featured: true,
       categories: ['Robotics', 'CAD'],
       tags: ['Fusion 360', 'Constant-force', 'Linear rail', 'Aerodynamics', 'Rapid prototyping'],
       summary: 'A surgical-tubing launcher that snapped at the State Championship became a tension-free constant-force design that hit Zone 1 in 8 of 10 matches at the Maryland Tech Invitational.',
@@ -706,14 +705,13 @@ window.PORTFOLIO = {
         { label: 'Scripts', value: '2: Extrusion (215 lines) and M3 Screw Create (309 lines)' },
         { label: 'Most-used', value: 'M3 Screw Create, since screws outnumber extrusion profiles per robot' },
         { label: 'Time saved', value: 'roughly 3–5 minutes per part (estimate)' },
-        { label: 'Status', value: 'Both work; the extrusion script is brittle on profile selection' },
+        { label: 'Status', value: 'Both work' },
       ],
       sections: [
         { heading: 'REV extrusion generator', text: 'Every FTC frame member uses the same REV 15 mm cross-section (center bore, four corner bores, and a repeating slot pattern), which is tedious to sketch by hand. The script builds one-eighth of the profile from coordinate arrays of lines and arcs, then mirrors it across both axes and the diagonal to close it, prompts for a length validated through the units manager, and extrudes into a new component.' },
         { heading: 'M3 screw generator', text: 'FTC robots use dozens of M3 screws in varying lengths and head styles, which was the biggest repeated time sink. The script asks socket-head vs button-head (ISO 4762 / ISO 7380 dimensions), prompts for a validated length, then builds the part: revolved head profile, extruded shank, modeled M3 threads via recommendThreadData and createThreadInfo, a tapered-extrude hex socket cut, a chamfered tip, and a black appearance pulled from the appearance library. It names the component ("M3x10 socket head screw") and handles Part-design documents that will not allow new components.' },
         { heading: 'What the API taught me', bullets: [
           'Sketch geometry is pure coordinate math: exploiting the extrusion profile\'s 8-fold symmetry cut the data entry to a fraction of the full outline.',
-          'Selecting a profile by index is fragile: the correct profile depends on geometry creation order. Selecting by largest area is far more robust, which is why the screw script survives edits and the extrusion script does not.',
           'The thread API beats hard-coding thread designations: recommendThreadData returns the right data for the diameter instead of me maintaining a table.',
           'API defensiveness matters: appearance library names differ between Fusion versions, so the lookup has to fail gracefully.',
         ]},

@@ -63,8 +63,6 @@
   });
 
   const heroImg = (p) => p.images && p.images.length ? (p.images[p.cardImage ?? 0] || p.images[0]) : null;
-  const AI_LABEL = { claude: 'Built with Claude Code', llm: 'LLM-assisted', none: 'Written without AI' };
-  const aiBadge = (p) => p.aiUse ? `<span class="aibadge aibadge--${esc(p.aiUse)}">${esc(AI_LABEL[p.aiUse] || p.aiUse)}</span>` : '';
   grid.innerHTML = projects.map((p, i) => {
     const h = heroImg(p);
     return `<button class="card reveal" data-i="${i}" aria-haspopup="dialog">
@@ -112,7 +110,6 @@
       </div>
       <div class="modal__content">
         <span class="eyebrow">${esc(p.categories.join(' · '))}</span>
-        ${aiBadge(p)}
         <h2 id="modal-title">${esc(p.title)}</h2>
         <p class="modal__lede">${esc(p.summary)}</p>
         ${facts ? `<dl class="modal__facts">${facts}</dl>` : ''}
