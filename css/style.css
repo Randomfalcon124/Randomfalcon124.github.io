@@ -185,7 +185,7 @@ html:not([data-theme="dark"]) .ico-moon { display: none; }
 .card__tags { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: auto; padding-top: .4rem; }
 
 /* Renders on white backgrounds: show whole part instead of cropping */
-.card__media img.fit-contain, .modal__hero img.fit-contain { object-fit: contain; background: #fff; padding: 4%; }
+.card__media img.fit-contain, .modal__hero img.fit-contain, .modal__gallery img.fit-contain { object-fit: contain; background: #fff; padding: 4%; }
 
 /* ---------- AI-use badge ---------- */
 .aibadge {

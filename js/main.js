@@ -74,7 +74,6 @@
       </div>
       <div class="card__body">
         <span class="card__meta">${esc(p.date)}${p.role ? ' · ' + esc(p.role) : ''}</span>
-        ${aiBadge(p)}
         <h3>${esc(p.title)}</h3>
         <p>${esc(p.summary)}</p>
         <div class="card__tags">${p.tags.slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</div>
@@ -100,7 +99,7 @@
       <div class="modal__section">
         <h3>Gallery</h3>
         <div class="modal__gallery">${p.images.map((im, k) => `
-          <figure data-lb="${k}"><img src="${esc(im.src)}" alt="${esc(im.alt || '')}" loading="lazy"><figcaption>${esc(im.caption || im.alt || '')}</figcaption></figure>`).join('')}
+          <figure data-lb="${k}"><img src="${esc(im.src)}" alt="${esc(im.alt || '')}" loading="lazy" class="${im.fit === 'contain' ? 'fit-contain' : ''}"><figcaption>${esc(im.caption || im.alt || '')}</figcaption></figure>`).join('')}
         </div>
       </div>` : '';
     const linksHtml = (p.links || []).map((l) =>
