@@ -761,7 +761,7 @@ window.PORTFOLIO = {
       'Turning optimized aerobody models into load-bearing structures in CAD, and laying out the avionics that go inside them.',
       'Developing 3D printed test airframes and the assembly jigs the production aircraft are built on.',
     ] },
-    { role: 'Co-Founder', org: 'Hardpoint Robotics', date: 'Jun 2026 – present', bullets: [
+    { role: 'Co-Founder', org: 'Hardpoint Robotics', url: 'hardpoint.html', date: 'Jun 2026 – present', bullets: [
       'Startup building NDAA-compliant development UAVs for customers barred from flying foreign-sourced hardware.',
       'Modeling a 500 mm, 4 kg max takeoff weight quadcopter in CAD with 3D printed CF-Nylon parts, sized for 12.7 min endurance with a 410 g Jetson and stereo camera payload.',
       'Working with North American vendors to manufacture carbon fiber structures and source compliant components, negotiating pricing and delivery timelines.',

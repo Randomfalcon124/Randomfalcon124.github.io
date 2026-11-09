@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Co-Founder, Hardpoint Robotics | Akshay Patil</title>
+  <script>try{var _t=localStorage.getItem('theme');document.documentElement.dataset.theme=_t||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch(e){}</script>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .hp { max-width: 920px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+    .hp__back { display: inline-block; margin-bottom: 1.5rem; color: var(--muted); font-family: var(--mono); font-size: .85rem; text-decoration: none; }
+    .hp__back:hover { color: var(--accent-text); }
+    .hp h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; }
+    .hp__sub { margin: .4rem 0 1.25rem; color: var(--muted); font-family: var(--mono); font-size: .85rem; }
+    .hp__lede { margin: 0 0 1.25rem; font-size: 1.1rem; line-height: 1.6; color: var(--text-2); max-width: 62ch; }
+    .hp__cta { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 2.5rem; }
+    .hp h2 { margin: 2.5rem 0 .75rem; font-size: 1.35rem; }
+    .hp__eyebrow { display: block; margin-bottom: .3rem; color: var(--accent-text); font-family: var(--mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+    .hp p, .hp li { line-height: 1.6; color: var(--text-2); }
+    .hp ul { margin: 0; padding-left: 1.2rem; }
+    .hp li + li { margin-top: .4rem; }
+    .hp__facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin: 1rem 0 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--line); }
+    .hp__facts div { padding: .9rem 1rem; background: var(--surface); }
+    .hp__facts dt { color: var(--muted); font-family: var(--mono); font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; }
+    .hp__facts dd { margin: .25rem 0 0; color: var(--text); font-weight: 600; }
+    .hp__kits { width: 100%; border-collapse: collapse; margin-top: .5rem; font-size: .95rem; }
+    .hp__kits th { text-align: left; padding: .5rem .75rem .5rem 0; color: var(--muted); font-family: var(--mono); font-size: .7rem; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; border-bottom: 1px solid var(--line); }
+    .hp__kits td { padding: .7rem .75rem .7rem 0; border-bottom: 1px solid var(--line); color: var(--text-2); vertical-align: top; }
+    .hp__kits td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+    .hp__kits td:last-child { font-family: var(--mono); white-space: nowrap; padding-right: 0; text-align: right; }
+    .hp__kits th:last-child { text-align: right; padding-right: 0; }
+    .hp__more { margin-top: .9rem; font-size: .9rem; }
+    .hp__more a { color: var(--accent-text); }
+    .hp__gal { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1rem; }
+    .hp__gal figure { margin: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--surface-2); cursor: zoom-in; }
+    .hp__gal figure { background: #fff; display: flex; flex-direction: column; }
+    .hp__gal figcaption { margin-top: auto; background: var(--surface); }
+    .hp__gal--lead figure:first-child { grid-column: 1 / -1; }
+    .hp__gal img { display: block; width: 100%; aspect-ratio: 16/10; object-fit: contain; }
+    .hp__gal figcaption { padding: .6rem .9rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+    @media (max-width: 720px) {
+      .hp__facts { grid-template-columns: repeat(2, 1fr); }
+      .hp__gal { grid-template-columns: 1fr; }
+      .hp__kits td:first-child { white-space: normal; }
+    }
+  </style>
+</head>
+<body>
+  <main class="hp">
+    <a class="hp__back" href="index.html#experience">← Portfolio</a>
+    <h1>Hardpoint Robotics</h1>
+    <p class="hp__sub">Co-Founder · Jun 2026 – present · Austin, TX</p>
+    <p class="hp__lede">Hardpoint builds carbon fiber drone airframes in the United States for labs, programs, and contractors who cannot fly foreign-sourced hardware. Every frame is built to be taken apart: arms, motor mounts, and landing gear legs unbolt in minutes, so a hard landing costs one part instead of the whole aircraft.</p>
+    <div class="hp__cta">
+      <a class="btn btn--accent btn--sm" href="https://www.hardpointrobotics.com/#lineup" target="_blank" rel="noopener">See the lineup</a>
+      <a class="btn btn--ghost btn--sm" href="https://docs.hardpointrobotics.com" target="_blank" rel="noopener">Docs</a>
+    </div>
+
+    <section>
+      <span class="hp__eyebrow">Current work</span>
+      <h2 style="margin-top:0">650 mm foldable hexacopter</h2>
+      <p>The next airframe is a 650 mm hex with folding arms. I am designing it in CAD now.</p>
+      <div class="hp__gal hp__gal--lead" id="hex-gal"></div>
+    </section>
+
+    <section>
+      <h2>Shipped: Q500</h2>
+      <p>The first product is a 500 mm quadcopter frame. I modeled the airframe in CAD: carbon fiber tube booms clamped into 3D printed CF-Nylon blocks, between two carbon plates on standoffs, with the landing gear as its own subassembly on the lower plate.</p>
+      <div class="hp__gal hp__gal--lead" id="q500-gal"></div>
+      <dl class="hp__facts">
+        <div><dt>Wheelbase</dt><dd>500 mm</dd></div>
+        <div><dt>Max takeoff</dt><dd>4 kg</dd></div>
+        <div><dt>Props</dt><dd>Up to 12 in</dd></div>
+        <div><dt>Assembly</dt><dd>About 1 hour</dd></div>
+      </dl>
+      <h2>What I do</h2>
+      <ul>
+        <li>Airframe design in CAD, from sizing through detail drawings for the vendor-cut carbon parts.</li>
+        <li>Sized the Q500 for 12.7 min endurance carrying a 410 g Jetson and stereo camera payload.</li>
+        <li>Work with North American vendors to manufacture the carbon fiber structure and source compliant components, negotiating pricing and delivery timelines.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Lineup</h2>
+      <table class="hp__kits">
+        <thead><tr><th>Kit</th><th>What it is</th><th>Price</th></tr></thead>
+        <tbody>
+          <tr><td>Q500-NDAA Frame Kit</td><td>500 mm airframe, NDAA compliant, designed and manufactured in the United States</td><td>$500</td></tr>
+          <tr><td>Q500 Frame Kit</td><td>500 mm airframe for work without sourcing restrictions</td><td>$300</td></tr>
+          <tr><td>ARF-NDAA Kit</td><td>Almost ready to fly, with an NDAA-compliant powertrain</td><td>$3,000</td></tr>
+          <tr><td>ARF Kit</td><td>Almost ready to fly, for work without sourcing restrictions</td><td>$1,600</td></tr>
+        </tbody>
+      </table>
+      <p class="hp__more">Motor mounts take 16, 19, 16×19, and 25 mm bolt circles. The top plate carries 30.5 mm and 45 mm electronics patterns with room for a Raspberry Pi or Jetson Orin Nano class computer. Current pricing and availability are on <a href="https://www.hardpointrobotics.com/#lineup" target="_blank" rel="noopener">hardpointrobotics.com</a>.</p>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lb" hidden>
+    <button class="iconbtn lightbox__close" id="lb-close" aria-label="Close">✕</button>
+    <figure class="lightbox__fig"><img id="lb-img" alt=""></figure>
+  </div>
+
+  <script>
+    // Hex CAD images. Files live in assets/img/hardpoint-hex/. First image spans full width.
+    var HEX = [
+      // { src: 'assets/img/hardpoint-hex/01-unfolded.jpg', alt: '', caption: '' },
+    ];
+    var Q500 = [
+      { src: 'assets/img/hardpoint-q500/site-front.png', alt: 'Q500 frame, front view', caption: 'Q500, front view' },
+      { src: 'assets/img/hardpoint-q500/site-top.png', alt: 'Q500 frame, top view', caption: 'Q500, top view' },
+      { src: 'assets/img/hardpoint-q500/site-detail.png', alt: 'Q500 motor mount detail', caption: 'Motor mount detail' },
+      { src: 'assets/img/hardpoint-q500/01-frame.png', alt: 'Q500 quadcopter frame CAD', caption: 'Q500 airframe: carbon booms, plate stack, and landing gear' },
+      { src: 'assets/img/hardpoint-q500/02-motor-mount.png', alt: 'Printed motor mount clamped on a carbon boom', caption: 'Motor mount clamped on the end of a carbon boom' },
+    ];
+    function render(id, list) {
+      var gal = document.getElementById(id);
+      if (!list.length) { gal.hidden = true; return; }
+      list.forEach(function (im) {
+        var f = document.createElement('figure'), i = document.createElement('img');
+        i.src = im.src; i.alt = im.alt || ''; i.loading = 'lazy'; f.appendChild(i);
+        if (im.caption) { var c = document.createElement('figcaption'); c.textContent = im.caption; f.appendChild(c); }
+        gal.appendChild(f);
+      });
+    }
+    render('hex-gal', HEX);
+    render('q500-gal', Q500);
+
+    var lb = document.getElementById('lb'), lbImg = document.getElementById('lb-img');
+    document.querySelectorAll('.hp__gal figure img').forEach(function (img) {
+      img.parentNode.addEventListener('click', function () { lbImg.src = img.src; lbImg.alt = img.alt; lb.hidden = false; });
+    });
+    lb.addEventListener('click', function () { lb.hidden = true; });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') lb.hidden = true; });
+  </script>
+</body>
+</html>
