@@ -107,7 +107,7 @@
       // { src: 'assets/img/hardpoint-hex/01-unfolded.jpg', alt: '', caption: '' },
     ];
     var Q500 = [
-      { src: 'assets/img/hardpoint-q500/arf-kit.jpg', alt: 'Q500 almost ready to fly kit', caption: 'Built Q500 ARF kit: carbon frame with motors, ESC, telemetry, and optical flow sensing fitted' },
+      { src: 'assets/img/hardpoint-q500/arf-kit.jpg', fit: 'cover', alt: 'Q500 almost ready to fly kit', caption: 'Built Q500 ARF kit: carbon frame with motors, ESC, telemetry, and optical flow sensing fitted' },
       { src: 'assets/img/hardpoint-q500/site-front.png', alt: 'Q500 frame, front view', caption: 'Q500, front view' },
       { src: 'assets/img/hardpoint-q500/site-top.png', alt: 'Q500 frame, top view', caption: 'Q500, top view' },
       { src: 'assets/img/hardpoint-q500/site-detail.png', alt: 'Q500 motor mount detail', caption: 'Motor mount detail' },
@@ -119,7 +119,7 @@
       if (!list.length) { gal.hidden = true; return; }
       list.forEach(function (im) {
         var f = document.createElement('figure'), i = document.createElement('img');
-        i.src = im.src; i.alt = im.alt || ''; i.loading = 'lazy'; f.appendChild(i);
+        i.src = im.src; i.alt = im.alt || ''; i.loading = 'lazy'; if (im.fit) i.style.objectFit = im.fit; f.appendChild(i);
         if (im.caption) { var c = document.createElement('figcaption'); c.textContent = im.caption; f.appendChild(c); }
         gal.appendChild(f);
       });

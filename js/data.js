@@ -63,6 +63,40 @@ window.PORTFOLIO = {
       ],
     },
     {
+      id: 'hardpoint',
+      title: 'Hardpoint Robotics: American-Made Carbon Fiber Drone Airframes',
+      date: 'Jun 2026 – present',
+      role: 'Co-Founder',
+      featured: true,
+      categories: ['Aerospace', 'CAD'],
+      tags: ['Carbon fiber', 'CF-Nylon', '3D printing', 'NDAA', 'Vendor sourcing', 'UAV'],
+      summary: 'Co-founded a company selling NDAA-compliant carbon fiber drone frames built to be taken apart. I designed the Q500 quadcopter airframe and am now designing a 650 mm foldable hex.',
+      facts: [
+        { label: 'Role', value: 'Co-Founder, Jun 2026 to present' },
+        { label: 'Shipped', value: 'Q500, a 500 mm quadcopter frame, 4 kg max takeoff weight' },
+        { label: 'Now', value: 'Designing a 650 mm foldable hexacopter' },
+      ],
+      sections: [
+        { heading: 'What I did', bullets: [
+          'Modeled the Q500 airframe in CAD: carbon fiber tube booms clamped into 3D printed CF-Nylon blocks between two carbon plates, with the landing gear as its own subassembly.',
+          'Sized it for 12.7 min endurance carrying a 410 g Jetson and stereo camera payload.',
+          'Work with North American vendors to manufacture the carbon fiber structure and source compliant components, negotiating pricing and delivery timelines.',
+        ]},
+      ],
+      links: [
+        { label: 'Full page', href: 'hardpoint.html' },
+        { label: 'hardpointrobotics.com', href: 'https://www.hardpointrobotics.com/#lineup' },
+      ],
+      images: [
+        { src: 'assets/img/hardpoint-q500/arf-kit.jpg', alt: 'Built Q500 quadcopter on a workbench', caption: 'Built Q500 ARF kit: carbon frame with motors, ESC, telemetry, and optical flow sensing fitted' },
+        { src: 'assets/img/hardpoint-q500/site-front.png', fit: 'contain', alt: 'Q500 frame, front view', caption: 'Q500, front view' },
+        { src: 'assets/img/hardpoint-q500/site-top.png', fit: 'contain', alt: 'Q500 frame, top view', caption: 'Q500, top view' },
+        { src: 'assets/img/hardpoint-q500/site-detail.png', fit: 'contain', alt: 'Q500 motor mount detail', caption: 'Motor mount detail' },
+        { src: 'assets/img/hardpoint-q500/01-frame.png', fit: 'contain', alt: 'Q500 quadcopter frame CAD', caption: 'Q500 airframe: carbon booms, plate stack, and landing gear' },
+        { src: 'assets/img/hardpoint-q500/02-motor-mount.png', fit: 'contain', alt: 'Printed motor mount clamped on a carbon boom', caption: 'Motor mount clamped on the end of a carbon boom' },
+      ],
+    },
+    {
       id: 'rebound',
       cardImage: 1,
       title: '"Rebound": Spindexer Shooter Robot, FTC Decode',
